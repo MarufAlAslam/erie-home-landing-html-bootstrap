@@ -61,7 +61,22 @@
     border-radius: 50%;
     font-size: 40px;
 }
-.play-icon i{
+
+.play-icon i {
     position: relative;
     left: 3px;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+
+.bg-gray {
+    background-color: #EDEDEE;
+}
+
+.fs-55 {
+    font-size: 55px;
 }
