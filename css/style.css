@@ -155,3 +155,11 @@ ul.slick-dots {
     object-fit: cover;
     object-position: center;
 }
+
+.local {
+    background: url("../img/local-bg.png");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #dfdfe4;
+}
