@@ -32,7 +32,7 @@
 .btn-red {
     background-color: #C90000 !important;
     color: #fff !important;
-    border: none;
+    border: 1px solid #C90000;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
@@ -122,4 +122,18 @@ ul.slick-dots {
 
 .slick-dots li button:before {
     font-size: 16px;
+}
+
+.btn-outline-red {
+    background-color: transparent;
+    color: #C90000;
+    border: 1px solid #C90000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-outline-red:hover {
+    background-color: #C90000;
+    color: #fff;
 }
