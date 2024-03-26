@@ -137,3 +137,21 @@ ul.slick-dots {
     background-color: #C90000;
     color: #fff;
 }
+
+.bg-black-img {
+    background: url("../img/black-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bars {
+    width: 100px;
+}
+
+.album-img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
